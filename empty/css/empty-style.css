@@ -10,8 +10,6 @@ body {
 	font-family: 'PT Sans Narrow', sans-serif;
 	margin: 0 auto;
 	text-transform: uppercase;
-	height: 100%;
-	padding-bottom: 189px;
 }
 
 .layout-centre {
@@ -91,14 +89,13 @@ nav {
 
 
 .empty {
-	display: table-cell;
-	height: 500px;
-	width: 940px;
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 100px;
 	text-align: center;
-	vertical-align: middle;
 	font-size: 50px;
 	font-weight: bold;
-	margin-bottom: 189px;
 }
 
 .btn-d {
@@ -123,7 +120,7 @@ footer {
 	height: 189px;
 	margin-top: 75px;
 	position: absolute;
-	bottom: -189px;
+	bottom: 0;
 	width: 100%;
 }
 
