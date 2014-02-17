@@ -14,19 +14,19 @@
 					<a href="#" class="active">Главная</a>
 				</li>
 				<li>
-					<a href="#">Информация</a>
+					<a href="empty/index.html">Информация</a>
 				</li>
 				<li>
-					<a href="#">Новости</a>
+					<a href="empty/index.html">Новости</a>
 				</li>
 				<li>
-					<a href="Barbershop-price/index.html">Прайс-лист</a>
+					<a href="barbershop-price/index.html">Прайс-лист</a>
 				</li>
 				<li>
-					<a href="#">Магазин</a>
+					<a href="barbershop-shop/index.html">Магазин</a>
 				</li>
 				<li>
-					<a href="#">Контакты</a>
+					<a href="empty/index.html">Контакты</a>
 				</li>
 			</ul>
 			<div class="account-menu">
@@ -79,9 +79,7 @@
 					</p>
 					<time>19 сентября</time>
 				</div>
-				<div class="btn">
-					<a href="#">Все новости</a>
-				</div>
+				<a href="empty/index.html" class="btn-d">Все новости</a>
 			</article>
 			<article class="gallery noise">
 				<h2>Фотогалерея</h2>
@@ -112,19 +110,15 @@
 			</article>
 			<article class="contacts noise">
 				<h2>Контактная информация</h2>
-				<address>Barbershop "Borodinski"<br/>
+				<address>Barbershop &laquo;Borodinski&raquo;<br/>
 				         Адрес: г. Москва, ул. Собаки Павлова, д. 13<br/>
-				         Телефон: +7(945)666-02-666
+				         Телефон: +7 (495) 666-02-666
 				</address>
 				<p>Время работы:</p>
 				<p>пн — пт: с 10:00 до 22:00</p>
 				<p>сб — вс: с 10:00 до 19:00</p>
-				<div class="btn">
-					<a href="#">Как проехать</a>
-				</div>
-				<div class="btn">
-					<a href="#">Обратная связь</a>
-				</div>
+				<a href="#" class="btn-l">Как проехать</a>
+				<a href="#" class="btn-d">Обратная связь</a>
 			</article>
 			<article class="form noise">
 				<h2>Записаться</h2>
@@ -133,15 +127,16 @@
 				</p>
 				<form action="#" method="post" class="order-form">
 					<fieldset>
-						<input type="text" name="date" placeholder="Дата">
-						<input type="text" name="time" placeholder="Время">
+						<input type="text" name="f-date" class="input" id="f-date" placeholder="Дата">
+						<input type="text" name="f-time" class="input" id="f-time" placeholder="Время">
 					</fieldset>
 					<fieldset>
-						<input type="text" name="name" placeholder="Ваше имя">
-						<input type="text" name="phone" placeholder="Телефон">
+						<input type="text" name="f-name" class="input" id="f-name" placeholder="Ваше имя">
+						<input type="text" name="f-phone" class="input" id="f-phone" placeholder="Телефон">
 					</fieldset>
 					<fieldset>
-						<input type="submit" class="btn" value="Отправить">
+						<input type="submit" id="s-btn" value="Отправить">
+						<label class="s-btn" for="s-btn">Отправить</label>
 					</fieldset>
 				</form>
 			</article>
@@ -150,7 +145,7 @@
 	<footer class="noise">
 		<div class="footer-wrapper">
 			<div class="address">
-				<address>Barbershop "Borodinski"<br/>
+				<address>Barbershop &laquo;Borodinski&raquo;<br/>
 				         Адрес: г. Москва, ул. Собаки Павлова, д. 13<br/>
 				         Телефон: +7(945)666-02-666
 				</address>
@@ -165,7 +160,7 @@
 			</div>
 			<div class="copyright">
 				<p>Дизайн сайта:</p>
-				<a href="http://glukhanko.ru" class="btn">GLUKHANKO.RU</a>
+				<a href="http://glukhanko.ru" class="btn-d">GLUKHANKO.RU</a>
 			</div>
 		</div>
 	</footer>
