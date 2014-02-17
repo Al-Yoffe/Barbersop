@@ -5,11 +5,23 @@
 	padding: 0;
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	background: url("../../img/100-80-4.png");
 	font-family: 'PT Sans Narrow', sans-serif;
 	margin: 0 auto;
 	text-transform: uppercase;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+body>section {
+	padding-bottom: 269px;
 }
 
 .layout-centre {
@@ -224,6 +236,9 @@ footer {
 	color: #fff;
 	height: 189px;
 	margin-top: 75px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 footer address {
