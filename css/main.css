@@ -53,9 +53,8 @@ nav {
 }
 
 .account-menu {
-	float: left;
+	float: right;
 	height: 47px;
-	margin-left: 187px;
 	padding-top: 25px;
 	width: 100px;
 }
