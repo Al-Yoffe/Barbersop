@@ -10,6 +10,7 @@ body {
 	font-family: 'PT Sans Narrow', sans-serif;
 	margin: 0 auto;
 	text-transform: uppercase;
+	height: 100%;
 }
 
 .layout-centre {
@@ -119,6 +120,9 @@ footer {
 	color: #fff;
 	height: 189px;
 	margin-top: 75px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 footer address {
