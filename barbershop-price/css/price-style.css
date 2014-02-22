@@ -109,13 +109,14 @@ header h1 {
 	margin: 17px 0 0 2px;
 }
 
-.bread-crumbs li {
+.bread-crumbs a {
 	float: left;
 	margin-right: 40px;
 	text-decoration: none;
+	color: #000;
 }
 
-.bread-crumbs li:nth-child(2):after {
+.bread-crumbs a:nth-child(2):after {
 	background: url("../../img/diamond.png") no-repeat;
 	content: '';
 	display: block;
@@ -126,22 +127,30 @@ header h1 {
 	width: 12px;
 }
 
-.bread-crumbs a {
-	color: #000;
-	text-decoration: none;
-}
-
 .title {
 	font: normal bold 48px 'PT Sans Narrow', sans-serif;
 	margin: 25px 0 55px 0;
 	text-align: center;
 }
 
-.title span {
-	margin: 0 15px
+.title:before {
+	content: '';
+	display: inline-block;
+	position: relative;
+	bottom: 15px;
+	right: 25px;
+	background-color: #000;
+	border: 0;
+	height: 2px;
+	width: 158px;
 }
 
-.title hr {
+.title:after {
+	content: '';
+	display: inline-block;
+	position: relative;
+	bottom: 15px;
+	left: 25px;
 	background-color: #000;
 	border: 0;
 	height: 2px;

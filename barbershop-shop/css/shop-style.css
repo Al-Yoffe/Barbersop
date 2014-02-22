@@ -109,14 +109,15 @@ header h1 {
 	margin: 17px 0 0 2px;
 }
 
-.bread-crumbs li {
+.bread-crumbs a {
 	float: left;
 	margin-right: 40px;
 	text-decoration: none;
+	color: #000;
 }
 
-.bread-crumbs li:nth-child(2):after,
-.bread-crumbs li:nth-child(3):after {
+.bread-crumbs a:nth-child(2):after,
+.bread-crumbs a:nth-child(3):after {
 	background: url("../../img/diamond.png") no-repeat;
 	content: '';
 	display: block;
@@ -125,11 +126,6 @@ header h1 {
 	position: relative;
 	top: -15px;
 	width: 12px;
-}
-
-.bread-crumbs a {
-	color: #000;
-	text-decoration: none;
 }
 
 .content {
